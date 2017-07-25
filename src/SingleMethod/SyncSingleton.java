@@ -8,7 +8,6 @@ public class SyncSingleton {
     public static SyncSingleton syncSingleton = null;
 
     private SyncSingleton(){
-
     }
 
     public static synchronized SyncSingleton getSyncSingleton(){

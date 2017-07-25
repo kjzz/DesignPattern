@@ -14,7 +14,7 @@ public class Singleton {
         private static Singleton singleton = new Singleton();
     }
 
-    public Singleton getSingleton(){
+    public static Singleton getSingleton(){
         return SingletonFactory.singleton;
     }
 }
